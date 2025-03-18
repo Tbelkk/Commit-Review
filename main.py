@@ -59,7 +59,7 @@ class CommitReviewApp(customtkinter.CTk):
     def check_commits_periodically(self):
         """Periodically check for new commits and update the UI."""
         while self.running:
-            time.sleep(30)
+            #time.sleep(30)
             
             try:
                 self.status_label.configure(text="Checking for new commits...")
