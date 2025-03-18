@@ -52,12 +52,10 @@ class CommitReviewApp(customtkinter.CTk):
         self.protocol("WM_DELETE_WINDOW", self.on_closing)
     
     def on_closing(self):
-        """Handle the window closing event."""
         self.running = False
         self.destroy()
     
     def check_commits_periodically(self):
-        """Periodically check for new commits and update the UI."""
         while self.running:
             #time.sleep(30)
             
@@ -79,7 +77,6 @@ class CommitReviewApp(customtkinter.CTk):
                 self.status_label.configure(text=f"Error: {str(e)}")
 
     def update_commit_review(self):
-        """Update the review text based on the latest commit."""
         try:
             current_commit = self.repo.head.commit
             
