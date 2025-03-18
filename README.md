@@ -1,6 +1,6 @@
 # Commit Review Assistant
 
-
+![Project Screenshot](project.pngraw=true)
 
 An AI-powered Git commit review tool that automatically analyzes your repository's commits and provides intelligent feedback on code quality, commit message effectiveness, and best practices.
 
@@ -25,13 +25,18 @@ An AI-powered Git commit review tool that automatically analyzes your repository
    git clone https://github.com/yourusername/commit-review.git
    cd commit-review-assistant
    ```
+2. Create and activate virtual environment:
+   ```
+   python -m venv venv
+   venv\Scripts\Activate.ps1
+   ```
 
-2. Install required packages:
+3. Install required packages:
    ```
    pip install -r requirements.txt
    ```
 
-3. Run the application:
+4. Run the application:
    ```
    python main.py
    ```
@@ -52,16 +57,10 @@ You can create a standalone executable using the included build script:
 python build_exe.py
 ```
 
-The executable will be created in the `build/CommitReviewAssistant` directory.
-
 ## Requirements
 
 See `requirements.txt` for a list of dependencies:
 
-- customtkinter
-- gitpython
-- ollama
-- cx_Freeze (for building the executable)
 
 ## Project Structure
 
