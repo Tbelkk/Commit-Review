@@ -67,6 +67,7 @@ See `requirements.txt` for a list of dependencies:
 ```
 commit-review-assistant/
 ├── main.py              # Main application code
+├── llm.py               # Local LLM using Ollama
 ├── build_exe.py         # Script to create standalone executable
 ├── requirements.txt     # Python dependencies
 └── README.md           # This file
