@@ -1,6 +1,6 @@
 # Commit Review Assistant
 
-![Project Screenshot](Commit-Analyzer/project.jpg?raw=true)
+![Project Screenshot](project.png?raw=true)
 
 An AI-powered Git commit review tool that automatically analyzes your repository's commits and provides intelligent feedback on code quality, commit message effectiveness, and best practices.
 
