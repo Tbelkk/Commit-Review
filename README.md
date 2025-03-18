@@ -22,7 +22,7 @@ An AI-powered Git commit review tool that automatically analyzes your repository
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/commit-review-assistant.git
+   git clone https://github.com/yourusername/commit-review.git
    cd commit-review-assistant
    ```
 
